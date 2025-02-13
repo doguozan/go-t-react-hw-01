@@ -1,0 +1,90 @@
+/* Main profile container */
+.profile {
+  width: 320px;
+  max-width: 400px;
+  border: 2px solid #505050;
+  border-radius: 8px;
+  padding-top: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, transform 0.25s ease-in-out;
+}
+
+.profile:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+/* Avatar styling */
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #333;
+  margin: 0 auto 15px;
+}
+
+/* Name styling */
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin: -10px 0 10px 0;
+  color: #000;
+}
+
+/* Username styling */
+.username {
+  font-size: 18px;
+  color: #666;
+  margin: 0 0 10px 0;
+}
+
+/* Location styling */
+.location {
+  font-size: 16px;
+  color: #666;
+  margin: 0 0 20px 0;
+}
+
+/* Stats container */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #cecece;
+}
+
+/* Individual stat item */
+.statItem {
+  width: 33.33%;
+  text-align: center;
+  /* padding: 15px 0; */
+  border-top: 2px solid #a5a5a5;
+  border-right: 2px solid #a5a5a5;
+}
+
+.statItem:last-child {
+  border-right: none;
+}
+
+/* Stat number */
+.statNumber {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin: 8px 0;
+}
+
+/* Stat label */
+.statLabel {
+  display: block;
+  font-size: 14px;
+  color: #666;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
