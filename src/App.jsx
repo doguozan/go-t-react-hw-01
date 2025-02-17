@@ -1,6 +1,6 @@
 import "./App.css";
 import Profile from "./components/Profile.jsx";
-import FriendList from "./components/Friendlist.jsx";
+import FriendList from "./components/FriendList.jsx";
 import TransactionHistory from "./components/TransactionHistory.jsx";
 
 const userData = {
